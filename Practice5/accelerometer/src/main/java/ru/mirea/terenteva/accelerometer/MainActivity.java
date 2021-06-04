@@ -23,15 +23,12 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        SensorManager sensorManager =
-                (SensorManager)getSystemService(Context.SENSOR_SERVICE);
+        sensorManager = (SensorManager)getSystemService(Context.SENSOR_SERVICE);
         accelerometerSensor = sensorManager
                 .getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         azimuthTextView = findViewById(R.id.textViewAzimuth);
         pitchTextView = findViewById(R.id.textViewPitch);
         rollTextView = findViewById(R.id.textViewRoll);
-        sensorManager.registerListener(this, accelerometerSensor, SensorManager.SENSOR_DELAY_NORMAL);
-
     }
 
     @Override
@@ -43,6 +40,7 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
     @Override
     protected void onResume() {
         super.onResume();
+        sensorManager.registerListener(this, accelerometerSensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
     @Override
