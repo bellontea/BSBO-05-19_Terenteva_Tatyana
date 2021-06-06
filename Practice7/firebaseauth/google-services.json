@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "25131046975",
+    "project_id": "practice-7-30f49",
+    "storage_bucket": "practice-7-30f49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25131046975:android:1c5bef28d667e1b460c08a",
+        "android_client_info": {
+          "package_name": "ru.mirea.terenteva.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25131046975-b44c103vublj8eirhi2qfmlcrah8djml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2t1RLH3qbxXL4HLNUbW2e4MdP9hWsPNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25131046975-b44c103vublj8eirhi2qfmlcrah8djml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
